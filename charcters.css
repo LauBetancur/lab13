@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.Character {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.leftImg {
+    text-align: center;
+}
+
+.leftImg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rightInfo {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.btnBackDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btnBack {
+    background-color: #747474;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnBack:hover {
+    background-color: #9d28b7;
+}
